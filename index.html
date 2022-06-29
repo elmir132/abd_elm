@@ -483,7 +483,7 @@ document .getElementById("sidebar").classList.toggle("active");
     <div class="slider__wrapper">
       <div class="slider__items">
         <div class="slider__item">
-          <img class="img-fluid1" src="worldd.jpg" width="100%" height= "52%" alt="..."  loading="lazy" style="">
+          <img class="img-fluid1" src="new3.png" width="100%" height= "52%" alt="..."  loading="lazy" style="">
         </div>
         <div class="slider__item">
           <img class="img-fluid2" src="viewss.jpg" alt="..." width="100%" height= "72%" loading="lazy" style="">
@@ -492,7 +492,7 @@ document .getElementById("sidebar").classList.toggle("active");
           <img class="img-fluid1" src="new4.png" alt="..." width="100%" height= "72%" loading="lazy" style="">
         </div>
         <div class="slider__item">
-          <img class="img-fluid1" src="new3.png" alt="..." width="100%" height= "72%" loading="lazy" style="">
+          <img class="img-fluid1" src="worldd.jpg" alt="..." width="100%" height= "72%" loading="lazy" style="">
         </div>
       </div>
     </div>
@@ -649,30 +649,97 @@ document .getElementById("sidebar").classList.toggle("active");
 
 
 
-<hr>
+<!-- <hr> -->
+
+<section style="
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: col 18s ease infinite;
+
+  animation: col 18s ease infinite;">
 <div class="block">
-<h2 style=" " class="h2" ><span class="select" >Click on the link below for detailed information</span></h2>
+<h2 style=" " class="h2" id="first"><span class="select" >Click on the link below for detailed information</span></h2>
 </div>
 
 
 
 
-<iframe src="demo_ifreme.html" name = "iframe" frameborder ="0"  width ="100%" height="800px" title="iframe example"  >Sorry not sorry</iframe>
+<!-- <iframe src="demo_ifreme.html" name = "iframe" frameborder ="0"  width ="100%" height="800px" title="iframe example"  >Sorry not sorry</iframe>
 <p style="text-align:center;"><a href="http://fit.univ.kiev.ua" target="iframe"><div class="box-3">
   <div class="btn btn-three" style="margin-left:1px; padding-top:30px ;padding-bottom:30px;font-size: 24px ;padding-left: 47%;padding-right: 30%  ">
-    <span style="text-align: center" class="part">click here</span>
+    <span style="text-align: center" class="part" id="dark-light">click here</span>
   </div>
 </div></iframe>
 
+
+
+
+<script type="text/javascript">
+
+const btn = document.getElementById('dark-light');
+btn.addEventListener('click', function onClick(event) {
+
+document.getElementById("first").style.display ='block';
+
+
+
+
+});
+
+
+</script> -->
+
+  <style>
+    
+@keyframes col {   0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+
+  }
+
+  </style>
+<iframe  name = "iframe" frameborder ="0"  width ="100%" height="800px" title="iframe example" id="iframe"> </iframe>
+<p style="text-align:center;"><a/>
+<div class="box-3">
+  <div class="btn btn-three" style="margin-left:1px; padding-top:30px ;padding-bottom:30px;font-size: 24px ;padding-left: 47%;padding-right: 30%  ">
+    <span style="text-align: center" class="part" id="dark-light">click here</span>
+  </div>
+</div></iframe>
+
+<script type="text/javascript">
+
+const btn = document.getElementById('dark-light');
+const iframe = document.getElementById('iframe');
+
+btn.addEventListener('click', function onClick(event) {
+ iframe.src = 'http://fit.univ.kiev.ua';
+
+
+});
+</script>
+
+</section>
+
+
+
+
+
+
 <!----------------------------->
+
+
+
+
+
+
 
 <section style="background-color: black; padding: 10px;padding-top: 60px">
   
   
-  <a href="https://www.instagram.com/elmirabdullaev/"><img src="https://image.flaticon.com/icons/png/512/174/174855.png" alt="insta" style="float:center;width:42px;height:42px; "></a>
+  <a href="https://www.instagram.com/elmirabdullaev/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png" alt="instagram" style="float:center;width:42px;height:42px; "></a>
 
-  <a href="https://t.me/spu_knu"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/600px-Telegram_logo.svg.png" alt="insta" style="float:center;width:42px;height:42px; "></a>
-
+  <a href="https://t.me/spu_knu" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/600px-Telegram_logo.svg.png" alt="insta" style="float:center;width:42px;height:42px; "></a>
 <span style="text-align: right;color:white;font-family:Indie Flower ; " class="part"><i> *site was designed by Elmir Abdullaev<i></span>
 </section>
 
